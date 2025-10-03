@@ -1,6 +1,9 @@
-To run this repo launch the debugger mode in vs code. It will ask to create a launch.json file. Copy-paste the below configuration. 
+# Mock Gaming Engine
 
+To run this repo, launch the debugger mode in VS Code.  
+It will ask you to create a `launch.json` file. Copy-paste the below configuration:
 
+```json
 {
   "version": "0.2.0",
   "configurations": [
@@ -20,5 +23,3 @@ To run this repo launch the debugger mode in vs code. It will ask to create a la
     }
   ]
 }
-
-
