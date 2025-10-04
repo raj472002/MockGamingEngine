@@ -23,3 +23,9 @@ It will ask you to create a `launch.json` file. Copy-paste the below configurati
     }
   ]
 }
+
+Copy paste the following curl after running in debug: 
+
+curl --location 'http://localhost:8080/start' \
+--header 'Content-Type: application/json' \
+--data '{"n":2000}'
